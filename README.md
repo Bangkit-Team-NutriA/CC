@@ -24,5 +24,5 @@ to run this, here are the steps:
 - do npm run migrate up
 - do npm run start
 
-you can see the endpoint file in here [endpoint](endpoint.pdf) or here is the link [postman](https://documenter.getpostman.com/view/14624207/Uz5Asz7w)
+you can see the endpoint file in here [endpoint](Endpoint.pdf) or here is the link [postman](https://documenter.getpostman.com/view/14624207/Uz5Asz7w)
 
