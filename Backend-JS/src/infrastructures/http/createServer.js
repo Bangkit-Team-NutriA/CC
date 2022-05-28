@@ -1,4 +1,5 @@
 const Hapi = require('@hapi/hapi');
+const inert = require('@hapi/inert');
 const predict = require('../../interfaces/api/predictImage');
 const calculator = require('../../interfaces/api/Calculator');
 const meal = require('../../interfaces/api/Meals');
@@ -22,6 +23,9 @@ const createServer = async(container) => {
   await server.register([
     {
       plugin: Jwt,
+    },
+    {
+      plugin: inert,
     },
   ]);
   server.auth.strategy('jwtUntukNutriA', 'jwt', {
@@ -66,7 +70,6 @@ const createServer = async(container) => {
   ]);
   server.ext('onPreResponse', (request, h) => {
     const { response } = request;
-
     if (response instanceof Error) {
       const translatedError = DomainErrorTranslator.translate(response);
       if (translatedError instanceof ClientError) {

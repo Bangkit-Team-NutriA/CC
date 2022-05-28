@@ -6,7 +6,16 @@ const routes = (handler) => [
     options: {
       auth: 'jwtUntukNutriA',
     }
-  }
+  },
+  {
+    method: 'GET',
+    path: '/recipes/{param*}',
+    handler: {
+      directory: {
+        path: 'src/assets/fotoResep'
+      },
+    },
+  },
 ];
 
 module.exports = routes;

@@ -68,4 +68,6 @@ def RecipeRecommendation():
     return Response("{'status':'error','message':'tidak ada hak akses'}", status=400, mimetype='application/json')
 
 if __name__ == '__main__':
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    from waitress import serve
+    serve(app, host="127.0.0.1", port=8080)
+    # app.run(host="127.0.0.1", port=8080, debug=True)
