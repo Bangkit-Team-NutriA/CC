@@ -1,0 +1,543 @@
+{
+	"info": {
+		"_postman_id": "4b2d183d-d15d-4d9f-8036-0b3e4f8a6e56",
+		"name": "CAPSTONE1",
+		"description": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14624207"
+	},
+	"item": [
+		{
+			"name": "Make Account",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('should respose with correct property and message', () => {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.environment.set('access', responseJson.token.accessToken);\r",
+							"    pm.environment.set('refresh', responseJson.token.refreshToken);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"{{email}}\",\r\n    \"password\":\"{{password}}\",\r\n    \"name\":\"zicos\",\r\n    \"birthOfDate\":\"2001-01-22\",\r\n    \"sex\":true,\r\n    \"weight\": 65,\r\n    \"height\": 172,\r\n    \"timesOfExercise\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('should respose with correct property and message', () => {\r",
+							"    const responseJson = pm.response.json();\r",
+							"    pm.environment.set('access', responseJson.token);\r",
+							"    pm.environment.set('refresh', responseJson.token.refreshToken);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"{{email}}\",\r\n    \"password\":\"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/authentications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"authentications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Predict gambar",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/bangkit/Bangkit/Capstone/DataSet/images/bakso/bakso_test (1).jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Best Resep python",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "{{recipe}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ingredients\": [1,2,3,4,5]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/Recipes?ingredients=1&ingredients=2&ingredients=3&ingredients=4&ingredients=5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"Recipes"
+					],
+					"query": [
+						{
+							"key": "ingredients",
+							"value": "1"
+						},
+						{
+							"key": "ingredients",
+							"value": "2"
+						},
+						{
+							"key": "ingredients",
+							"value": "3"
+						},
+						{
+							"key": "ingredients",
+							"value": "4"
+						},
+						{
+							"key": "ingredients",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Best resep js",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/recipes?ingredients=1&ingredients=2&ingredients=3&ingredients=4&ingredients=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"recipes"
+					],
+					"query": [
+						{
+							"key": "ingredients",
+							"value": "1"
+						},
+						{
+							"key": "ingredients",
+							"value": "2"
+						},
+						{
+							"key": "ingredients",
+							"value": "3"
+						},
+						{
+							"key": "ingredients",
+							"value": "4"
+						},
+						{
+							"key": "ingredients",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kalkulator",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sex\": true,\r\n    \"weight\": 80,\r\n    \"height\": 170,\r\n    \"timesOfExercise\": 5,\r\n    \"age\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/calculators?sex=false&weight=100&height=144&timesOfExercise=9&age=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"calculators"
+					],
+					"query": [
+						{
+							"key": "sex",
+							"value": "false"
+						},
+						{
+							"key": "weight",
+							"value": "100"
+						},
+						{
+							"key": "height",
+							"value": "144"
+						},
+						{
+							"key": "timesOfExercise",
+							"value": "9"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rekomenadi makanan py",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "8b7b4ef375716ab08b2a3951b29d52fc00b1c855f9d1a847229b8c5935bef56d9d271e76a9cf08e614300395c3b90ebe559cf968a0741b18c9505549394b2c70",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "key",
+						"value": "{{meal}}",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sex\": true,\r\n    \"weight\": 80,\r\n    \"height\": 170,\r\n    \"timesOfExercise\": 5,\r\n    \"age\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/Meals?Energi (Energy)=3293.08&Karbohidrat (CHO)=54.884&Lemak (Fat)=123.49&Protein (Protein)=493.9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"Meals"
+					],
+					"query": [
+						{
+							"key": "Energi (Energy)",
+							"value": "3293.08"
+						},
+						{
+							"key": "Karbohidrat (CHO)",
+							"value": "54.884"
+						},
+						{
+							"key": "Lemak (Fat)",
+							"value": "123.49"
+						},
+						{
+							"key": "Protein (Protein)",
+							"value": "493.9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rekomendasi makanan js dengan params",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/meals?sex=false&weight=100&height=144&timesOfExercise=9&age=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"meals"
+					],
+					"query": [
+						{
+							"key": "sex",
+							"value": "false"
+						},
+						{
+							"key": "weight",
+							"value": "100"
+						},
+						{
+							"key": "height",
+							"value": "144"
+						},
+						{
+							"key": "timesOfExercise",
+							"value": "9"
+						},
+						{
+							"key": "age",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rekomendasi makanan js tanpa params",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/meals",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"meals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "edit user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"zico\",\r\n    \"sex\":false,\r\n    \"weight\": 64,\r\n    \"height\": 198\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "daftar",
+							"value": "true",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "logout",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/authentications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"authentications"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

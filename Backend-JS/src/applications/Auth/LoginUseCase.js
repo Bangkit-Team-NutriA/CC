@@ -19,16 +19,11 @@ class LoginUseCase {
       email,
       id,
     });
-    const refreshToken = await this._tokenManager.createRefreshToken({
-      email,
-      id,
-    });
     const newAuth = new NewAuth({
-      accessToken,
-      refreshToken
+      accessToken
     })
-    await this._authService.addToken(newAuth.refreshToken);
-    return newAuth;
+    await this._authService.addToken(newAuth.accessToken);
+    return newAuth.accessToken;
   }
 }
 module.exports = LoginUseCase;

@@ -5,9 +5,10 @@ class EditUserUseCase {
     this._userService = userService;
     this._authService = authService;
   }
-  async execute(payloads, id, isRegister) {
+  async execute(payloads, id, isRegister,token) {
     const factory = new PutUserFactory();
     const { refreshToken } = payloads;
+    await this._authService.checkAvailabilityToken(token);
     delete payloads.refreshToken;
     const putUser = factory.factory(isRegister,payloads);
     delete putUser.type;

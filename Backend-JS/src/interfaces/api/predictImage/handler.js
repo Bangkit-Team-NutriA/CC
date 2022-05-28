@@ -8,7 +8,8 @@ class PredictHandler {
   async postPredictImage(request) {
     const { file } = request.payload;
     const imageUseCase =  this._container.getInstance(ImageUseCase.name);
-    const prediksi = await imageUseCase.execute(file);
+    const token = request.auth.artifacts.token;
+    const prediksi = await imageUseCase.execute(file,token);
     return {
       status: 'success',
       name: prediksi[0]['result'],

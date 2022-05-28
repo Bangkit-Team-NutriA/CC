@@ -5,14 +5,15 @@ class CalculatorHandler {
     this._container = container;
     this.GetCalculateHandler = this.GetCalculateHandler.bind(this);
   }
-  GetCalculateHandler(request) {
+  async GetCalculateHandler(request) {
     const payload = request.query;
     payload['weight'] = parseInt(payload['weight'])
     payload['height'] = parseInt(payload['height'])
     payload['timesOfExercise'] = parseInt(payload['timesOfExercise'])
     payload['age'] = parseInt(payload['age'])
     const calculatorUseCase = this._container.getInstance(CalculatorUseCase.name)
-    const information = calculatorUseCase.execute(payload)
+    const token = request.auth.artifacts.token;
+    const information = await calculatorUseCase.execute(payload,token)
     return {
       'status':'success',
       information

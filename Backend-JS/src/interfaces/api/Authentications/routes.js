@@ -12,7 +12,10 @@ const routes = (handler) => [
   {
     method: 'DELETE',
     path: '/authentications',
-    handler: handler.deleteAuthenticationHandler
+    handler: handler.deleteAuthenticationHandler,
+    options: {
+      auth: 'jwtUntukNutriA',
+    }
   }
 ]
 

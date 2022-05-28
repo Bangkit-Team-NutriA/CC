@@ -2,12 +2,14 @@ const MealData = require('../../domain/Meals/entities/MealData');
 const MealResult = require('../../domain/Meals/entities/MealResult');
 
 class MealUseCase {
-  constructor({ calculatorUseCase, mealService, userService }) {
+  constructor({ calculatorUseCase, mealService, userService, authService }) {
     this._calculatorUseCase = calculatorUseCase;
     this._mealService = mealService;
     this._userService = userService;
+    this._authService = authService;
   }
-  async execute(payload1) {
+  async execute(payload1,token) {
+    await this._authService.checkAvailabilityToken(token);
     const time = [0.3,0.5,0.2];
     var payload = payload1
     if (typeof payload1 === 'string') {
@@ -23,7 +25,7 @@ class MealUseCase {
       tempPayload['age'] = new Date().getFullYear() - new Date(tempPayload['age']).getFullYear();
       payload = tempPayload;
     }
-    const information = this._calculatorUseCase.execute(payload)
+    const information = await this._calculatorUseCase.execute(payload,token)
     const payloads = new MealData(information).payload;
     var timePayload = []
     const timeString = ['pagi','siang','malam']
