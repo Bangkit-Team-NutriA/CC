@@ -2,13 +2,12 @@ class NewAuth {
   constructor(payload) {
     this._verifyPayload(payload);
     this.accessToken =  payload.accessToken;
-    this.refreshToken = payload.refreshToken;
   }
-  _verifyPayload({ accessToken, refreshToken }) {
-    if (!accessToken || !refreshToken) {
+  _verifyPayload({ accessToken}) {
+    if (!accessToken) {
       throw new Error('Can\'t empty parameter');
     }
-    if(typeof email === 'string' || typeof password === 'string') {
+    if(typeof accessToken !== 'string') {
       throw new Error('wrong type of parameter');
     }
   }

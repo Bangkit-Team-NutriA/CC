@@ -17,6 +17,7 @@ DomainErrorTranslator._directories = {
   'email tidak tersedia karna telah dipakai': new BadRequest(''),
   'email tidak ditemukan': new BadRequest('tidak ada email tersebut di database'),
   'refresh token tidak ada': new BadRequest('refresh token tidak ada di database'),
+  'tidak ada akses': new BadRequest('tidak ada akses'),
   'refresh token tidak valid': new BadRequest('refresh token tidak valid'),
   'Password salah': new BadRequest('password salah'),
   'Missing authentication': new Authentication('tidak ada autentikasi'),

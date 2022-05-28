@@ -9,7 +9,8 @@ class RecipeHandler {
     const params = request.query;
     const payload = params['ingredients'].map((number) => parseInt(number));
     const recipeUseCase = this._container.getInstance(RecipeUseCase.name)
-    const information = recipeUseCase.execute(payload);
+    const token = request.auth.artifacts.token;
+    const information = recipeUseCase.execute(payload,token);
     return information
   }
 }

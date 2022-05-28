@@ -32,7 +32,7 @@ class AuthenticationHandler {
     }
   }
   async deleteAuthenticationHandler(req) {
-    const payload = req.payload;
+    const payload = req.auth.artifacts.token;
     const logoutUseCase = this._container.getInstance(LogoutUseCase.name)
     await logoutUseCase.execute(payload);
     return {

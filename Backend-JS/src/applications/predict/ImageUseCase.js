@@ -4,11 +4,14 @@ const json = require('../../assets/models/predictFruits/labels.json');
 const jsonData = Object.keys(json);
 const picInformation = require('../../assets/models/predictFruits/dataFoto.json');
 class ImageUseCase {
-  constructor({ imageService, predictService }) {
+  constructor({ imageService, predictService, authService }) {
     this._imageService = imageService;
     this._predictService = predictService;
+    this._authService = authService;
+
   }
-  async execute(payload) {
+  async execute(payload,token) {
+    await this._authService.checkAvailabilityToken(token);
     new NewImage(payload.hapi.headers);
     const image = await this._imageService.fetchImage(payload);
     const result = await this._predictService.predict(image);

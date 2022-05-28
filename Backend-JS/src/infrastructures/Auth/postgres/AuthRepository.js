@@ -18,11 +18,9 @@ class AuthRepository extends Auth {
       text: 'SELECT * FROM auths WHERE token = $1',
       values: [token],
     };
-
     const result = await this._pg.query(query);
-
     if (result.rows.length === 0) {
-      throw new Error('refresh token tidak ada');
+      throw new Error('tidak ada akses');
     }
   }
 

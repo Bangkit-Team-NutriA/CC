@@ -43,6 +43,17 @@ container.register([
     Class: FoodPredict
   },
   {
+    key: Auth.name,
+    Class: AuthService,
+    parameter: {
+      dependencies:[
+        {
+          concrete: pool,
+        }
+      ]
+    }
+  },
+  {
     key: Image.name,
     Class: ImageService,
   },
@@ -123,17 +134,6 @@ container.register([
       ]
     }
   },
-  {
-    key: Auth.name,
-    Class: AuthService,
-    parameter: {
-      dependencies:[
-        {
-          concrete: pool,
-        }
-      ]
-    }
-  },
 ]);
 container.register([
   {
@@ -150,6 +150,10 @@ container.register([
           name: 'predictService',
           internal: Food.name,
         },
+        {
+          name: 'authService',
+          internal: Auth.name
+        }
       ]    
     }
   },
@@ -162,6 +166,10 @@ container.register([
         {
           name: 'calculatorService',
           internal: Calcultor.name
+        },
+        {
+          name: 'authService',
+          internal: Auth.name
         }
       ]
     }
@@ -183,6 +191,10 @@ container.register([
         {
           name: 'userService',
           internal: User.name
+        },
+        {
+          name: 'authService',
+          internal: Auth.name
         }
       ]
     }
@@ -196,6 +208,10 @@ container.register([
         {
           name: 'recipeService',
           internal: Recipes.name
+        },
+        {
+          name: 'authService',
+          internal: Auth.name
         }
       ]
     }
@@ -238,7 +254,7 @@ container.register([
         {
           name: 'authService',
           internal: Auth.name
-        }
+        },
       ]
     }
   },

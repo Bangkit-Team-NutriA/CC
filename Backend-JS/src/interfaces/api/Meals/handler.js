@@ -16,7 +16,8 @@ class MealHandler {
       payload['age'] = parseInt(payload['age'])
     }   
     const mealUseCase = this._container.getInstance(MealUseCase.name)
-    const information = await mealUseCase.execute(payload)
+    const token = request.auth.artifacts.token;
+    const information = await mealUseCase.execute(payload,token)
     return {
       status: 'success',
       information

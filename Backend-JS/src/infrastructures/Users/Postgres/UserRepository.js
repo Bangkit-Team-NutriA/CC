@@ -8,11 +8,11 @@ class UserRepository extends User {
   }
 
   async addUser(payload) {
-    const { email, password } = payload;
+    const { email, password, nama, tanggallahir, jeniskelamin, berat, tinggi, olahraga} = payload;
     const id = `user-${this._generator(48)}`;
     const query = {
       text: 'INSERT INTO users VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING id',
-      values: [id, email, password, null, null, null, null, null, null],
+      values: [id, email, password, nama, tanggallahir, jeniskelamin, berat, tinggi, olahraga],
     }
     const result = await this._pg.query(query)
     return result.rows[0].id;
