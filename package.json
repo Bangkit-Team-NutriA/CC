@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@hapi/inert": "^6.0.5"
+  }
+}
