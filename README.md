@@ -14,9 +14,10 @@ We use Clean architecture in JS to provide API
 we use relational database which is postgreSQL
 
 to run this, here are the steps:
-- clone this project 
+- clone this project
+- make an virtual env and activate it 
 - install requirements for python by using pip install -r requirements.txt
-- turn on the server for python
+- turn on the server for python using pyhton app.py
 - make database nutria
 - make user and grant access to database
 - setting the env in backend-py and backend-js
