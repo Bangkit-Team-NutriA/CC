@@ -42,7 +42,6 @@ def MealRecommendation():
       singleAttr['Karbohidrat (CHO)'] = getAttr['nutrisi']['Karbohidrat (CHO)']
       singleAttr['Lemak (Fat)'] = getAttr['nutrisi']['Lemak (Fat)']
       singleAttr['Protein (Protein)'] = getAttr['nutrisi']['Protein (Protein)']
-      singleAttr['pic'] = ''
       JsonBack.append(singleAttr)
       returning = {
         "status": 'success',

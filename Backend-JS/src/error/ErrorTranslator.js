@@ -22,7 +22,8 @@ DomainErrorTranslator._directories = {
   'Password salah': new BadRequest('password salah'),
   'Missing authentication': new Authentication('tidak ada autentikasi'),
   'Token maximum age exceeded': new Authorization('token kadaluarsa'),
-  'Invalid token signature': new Authorization('token tidak valid')
+  'Invalid token signature': new Authorization('token tidak valid'),
+  'tidak dapat memprediksi gambar': new BadRequest('tidak dapat memprediksi gambar')
 };
 
 module.exports = DomainErrorTranslator;
