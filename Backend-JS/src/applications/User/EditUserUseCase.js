@@ -9,12 +9,9 @@ class EditUserUseCase {
     const { refreshToken } = payloads;
     await this._authService.checkAvailabilityToken(token);
     delete payloads.refreshToken;
-    new PutOldUser(payloads)
+    const putUser = new PutOldUser(payloads)
     delete putUser.type;
     await this._userService.updateUserById(id, putUser);
-    if (isRegister) {
-      await this._authService.deleteToken(refreshToken); 
-    }
   }
 }
 
