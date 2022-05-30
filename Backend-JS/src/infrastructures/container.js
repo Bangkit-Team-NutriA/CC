@@ -6,9 +6,9 @@ const MealUseCase = require('../applications/Meals/MealUseCase');
 const RecipeUseCase = require('../applications/Recipes/RecipeUseCase');
 const AddUserUseCase = require('../applications/User/AddUserUseCase');
 const EditUserUseCase = require('../applications/User/EditUserUseCase');
+const GetUserUseCase = require('../applications/User/GetUserUseCase');
 const LoginUseCase = require('../applications/Auth/LoginUseCase');
 const LogoutUseCase = require('../applications/Auth/LogoutUseCase');
-const RefreshTokenUseCase = require('../applications/Auth/RefreshTokenUseCase');
 //Helper
 const Fetching = require('../applications/Fetching/Fetching');
 //domain
@@ -297,21 +297,22 @@ container.register([
     }
   },
   {
-    key: RefreshTokenUseCase.name,
-    Class: RefreshTokenUseCase,
+    key: GetUserUseCase.name,
+    Class: GetUserUseCase,
     parameter: {
       injectType: 'destructuring',
       dependencies: [
         {
-          name: 'tokenManager',
-          internal: TokenManager.name
+          name: 'userService',
+          internal: User.name
         },
         {
           name: 'authService',
           internal: Auth.name
-        }
+        },
       ]
     }
   },
+
 ])
 module.exports = container;

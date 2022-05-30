@@ -1,11 +1,13 @@
 const AddUserUseCase = require("../../../applications/User/AddUserUseCase");
 const EditUserUseCase = require("../../../applications/User/EditUserUseCase");
+const GetUserUseCase = require("../../../applications/User/GetUserUseCase");
 
 class UserHandler {
   constructor(container) {
     this._container = container;
     this.postUserHandler = this.postUserHandler.bind(this);
     this.putUserHandler = this.putUserHandler.bind(this);
+    this.getUserHandler = this.getUserHandler.bind(this);
   }
   async postUserHandler(req, h) {
     const payload = req.payload;
@@ -27,6 +29,16 @@ class UserHandler {
     await editUserUseCase.execute(payload, id, isRegister, token);
     return {
       status: 'success',
+    };
+  }
+  async getUserHandler(req) {
+    const { id } = req.auth.credentials;
+    const token = req.auth.artifacts.token;
+    const editUserUseCase = this._container.getInstance(GetUserUseCase.name);
+    const data = await editUserUseCase.execute(id, token);
+    return {
+      status: 'success',
+      data,
     };
   }
 }

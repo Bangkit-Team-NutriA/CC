@@ -79,7 +79,7 @@ class UserRepository extends User {
     }
     const result = await this._pg.query(query);
     if (!result.rowCount) {
-      throw new Error('email tidak ditemukan');
+      throw new Error('id tidak ditemukan');
     }
     return result.rows[0];
   }
