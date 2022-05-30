@@ -11,6 +11,14 @@ const route = (handler) => [
     options: {
       auth: 'jwtUntukNutriA',
     }
+  },
+  {
+    method: 'GET',
+    path: '/users',
+    handler: handler.getUserHandler,
+    options: {
+      auth: 'jwtUntukNutriA',
+    }
   }
 ]
 module.exports = route;

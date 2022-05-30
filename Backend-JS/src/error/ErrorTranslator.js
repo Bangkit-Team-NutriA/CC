@@ -14,7 +14,7 @@ DomainErrorTranslator._directories = {
   'no data is sent': new BadRequest('tidak ada data yang dikirim'),
   'data type isn\'t supported': new BadRequest('tidak support extension data tersebut'),
   'please input email type format': new BadRequest('format email salah'),
-  'email tidak tersedia karna telah dipakai': new BadRequest(''),
+  'email tidak tersedia karna telah dipakai': new BadRequest('email tidak tersedia karna telah dipakai'),
   'email tidak ditemukan': new BadRequest('tidak ada email tersebut di database'),
   'refresh token tidak ada': new BadRequest('refresh token tidak ada di database'),
   'tidak ada akses': new BadRequest('tidak ada akses'),
@@ -23,7 +23,8 @@ DomainErrorTranslator._directories = {
   'Missing authentication': new Authentication('tidak ada autentikasi'),
   'Token maximum age exceeded': new Authorization('token kadaluarsa'),
   'Invalid token signature': new Authorization('token tidak valid'),
-  'tidak dapat memprediksi gambar': new BadRequest('tidak dapat memprediksi gambar')
+  'tidak dapat memprediksi gambar': new BadRequest('tidak dapat memprediksi gambar'),
+  'id tidak ditemukan': new BadRequest('id tidak ditemukan')
 };
 
 module.exports = DomainErrorTranslator;

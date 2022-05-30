@@ -1,4 +1,4 @@
-const PutUserFactory = require("../../domain/User/entities/PutUserFactory");
+const PutOldUser = require("../../domain/User/entities/PutOldUser");
 
 class EditUserUseCase {
   constructor({userService, authService }) {
@@ -6,11 +6,10 @@ class EditUserUseCase {
     this._authService = authService;
   }
   async execute(payloads, id, isRegister,token) {
-    const factory = new PutUserFactory();
     const { refreshToken } = payloads;
     await this._authService.checkAvailabilityToken(token);
     delete payloads.refreshToken;
-    const putUser = factory.factory(isRegister,payloads);
+    new PutOldUser(payloads)
     delete putUser.type;
     await this._userService.updateUserById(id, putUser);
     if (isRegister) {
