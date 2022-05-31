@@ -7,6 +7,7 @@ class CalculatorHandler {
   }
   async GetCalculateHandler(request) {
     const payload = request.query;
+    payload['sex'] = (payload['sex']==='true');
     payload['weight'] = parseInt(payload['weight'])
     payload['height'] = parseInt(payload['height'])
     payload['timesOfExercise'] = parseInt(payload['timesOfExercise'])

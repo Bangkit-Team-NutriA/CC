@@ -28,6 +28,9 @@ class UserHandler {
     const { id } = req.auth.credentials;
     const token = req.auth.artifacts.token;
     const payload = req.payload;
+    payload['sex'] = (payload['sex']==='true');
+    payload['weight'] = parseInt(payload['weight']);
+    payload['height'] = parseInt(payload['height']);
     const {daftar:isRegister} = req.query;
     const editUserUseCase = this._container.getInstance(EditUserUseCase.name);
     await editUserUseCase.execute(payload, id, isRegister, token);
