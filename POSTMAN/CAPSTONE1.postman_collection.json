@@ -80,16 +80,27 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/authentications",
+					"raw": "http://192.168.0.107:5000/authentications",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192",
+						"168",
+						"0",
+						"107"
 					],
 					"port": "5000",
 					"path": [
 						"authentications"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "GEt user",
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		},
@@ -114,7 +125,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/E:/bangkit/Bangkit/Capstone/DataSet/images/bakso/bakso_test (1).jpg"
+							"src": "/E:/bangkit/Bangkit/Capstone/DataSet/images/carrot_cake/37787.jpg"
 						}
 					]
 				},

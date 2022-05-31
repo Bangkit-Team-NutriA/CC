@@ -11,6 +11,10 @@ class UserHandler {
   }
   async postUserHandler(req, h) {
     const payload = req.payload;
+    payload['sex'] = (payload['sex']==='true');
+    payload['weight'] = parseInt(payload['weight']);
+    payload['height'] = parseInt(payload['height']);
+    payload['timesOfExercise'] = parseInt(payload['timesOfExercise']);
     const addUserUseCase = this._container.getInstance(AddUserUseCase.name);
     const data = await addUserUseCase.execute(payload);
     const response = h.response({
@@ -24,6 +28,9 @@ class UserHandler {
     const { id } = req.auth.credentials;
     const token = req.auth.artifacts.token;
     const payload = req.payload;
+    payload['sex'] = (payload['sex']==='true');
+    payload['weight'] = parseInt(payload['weight']);
+    payload['height'] = parseInt(payload['height']);
     const {daftar:isRegister} = req.query;
     const editUserUseCase = this._container.getInstance(EditUserUseCase.name);
     await editUserUseCase.execute(payload, id, isRegister, token);
