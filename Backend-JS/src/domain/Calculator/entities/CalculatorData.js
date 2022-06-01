@@ -1,7 +1,7 @@
 class CalculatorData {
   constructor(payload) {
     this.type = {
-      sex: 'string',
+      sex: 'boolean',
       weight: 'number',
       height: 'number',
       timesOfExercise: 'number',
