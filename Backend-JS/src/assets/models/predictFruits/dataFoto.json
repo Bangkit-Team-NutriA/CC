@@ -1,11 +1,11 @@
 [
     {
         "nama": "apple pie",
-        "serving": "100 gr",
-        "kalori": "265 kal",
-        "protein": "2.4 gr",
-        "karbohidrat": "37.1 gr",
-        "lemak": "12.5 gr"
+        "serving": "1 buah (diameter 1/8 23 cm)",
+        "kalori": "411 kal",
+        "protein": "3.72 gr",
+        "karbohidrat": "57.5 gr",
+        "lemak": "19.38 gr"
     },
     {
         "nama": "baby back ribs",
@@ -25,35 +25,35 @@
     },
     {
         "nama": "bakso",
-        "serving": "100 gr",
-        "kalori": "202 kal",
-        "protein": "12.41 gr",
-        "karbohidrat": "7.58 gr",
-        "lemak": "13.16 gr"
+        "serving": "1 mangkok",
+        "kalori": "283 kal",
+        "protein": "17.37 gr",
+        "karbohidrat": "10.61 gr",
+        "lemak": "18.43 gr"
     },
     {
         "nama": "bakwan",
         "serving": "100 gr",
-        "kalori": "76 kal",
-        "protein": "4.12 gr",
-        "karbohidrat": "9.24 gr",
-        "lemak": "2.52 gr"
+        "kalori": "137 kal",
+        "protein": "1.99 gr",
+        "karbohidrat": "6.74 gr",
+        "lemak": "11.59 gr"
     },
     {
         "nama": "batagor",
-        "serving": "100 gr",
-        "kalori": "290 kal",
-        "protein": "10.28 gr",
-        "karbohidrat": "29.14 gr",
-        "lemak": "14.92 gr"
+        "serving": "1 buah",
+        "kalori": "58 kal",
+        "protein": "2.06 gr",
+        "karbohidrat": "5.83 gr",
+        "lemak": "2.98 gr"
     },
     {
         "nama": "beef carpaccio",
-        "serving": "100 gr",
-        "kalori": "119 kal",
-        "protein": "22.31 gr",
-        "karbohidrat": "0 gr",
-        "lemak": "2.62 gr"
+        "serving": "1 porsi",
+        "kalori": "240 kal",
+        "protein": "16.68 gr",
+        "karbohidrat": "4.67 gr",
+        "lemak": "17.54 gr"
     },
     {
         "nama": "beef tartare",
@@ -65,11 +65,11 @@
     },
     {
         "nama": "beet salad",
-        "serving": "100 gr",
-        "kalori": "69 kal",
-        "protein": "0 gr",
-        "karbohidrat": "13 gr",
-        "lemak": "1 gr"
+        "serving": "1 porsi",
+        "kalori": "255 kal",
+        "protein": "9.77 gr",
+        "karbohidrat": "27 gr",
+        "lemak": "13.43 gr"
     },
     {
         "nama": "beignets",
@@ -81,39 +81,39 @@
     },
     {
         "nama": "bibimbap",
-        "serving": "100 gr",
-        "kalori": "79 kal",
-        "protein": "5.4 gr",
-        "karbohidrat": "8.3 gr",
-        "lemak": "2.8 gr"
+        "serving": "1 porsi",
+        "kalori": "634 kal",
+        "protein": "24.17 gr",
+        "karbohidrat": "88.27 gr",
+        "lemak": "19.68 gr"
     },
     {
         "nama": "bread pudding",
-        "serving": "100 gr",
-        "kalori": "153 kal",
-        "protein": "5.27 gr",
-        "karbohidrat": "23.26 gr",
-        "lemak": "4.74 gr"
+        "serving": "1 porsi",
+        "kalori": "306 kal",
+        "protein": "10.54 gr",
+        "karbohidrat": "46.52 gr",
+        "lemak": "9.48 gr"
     },
     {
         "nama": "breakfast burrito",
-        "serving": "100 gr",
-        "kalori": "202 kal",
-        "protein": "10.72 gr",
-        "karbohidrat": "11.89 gr",
-        "lemak": "12.3 gr"
+        "serving": "1 porsi",
+        "kalori": "267 kal",
+        "protein": "27.97 gr",
+        "karbohidrat": "33.45 gr",
+        "lemak": "3.53 gr"
     },
     {
         "nama": "bruschetta",
-        "serving": "100 gr",
-        "kalori": "70 kal",
-        "protein": "1 gr",
-        "karbohidrat": "5 gr",
-        "lemak": "5 gr"
+        "serving": "1 porsi",
+        "kalori": "305 kal",
+        "protein": "2.32 gr",
+        "karbohidrat": "15.15 gr",
+        "lemak": "27.42 gr"
     },
     {
         "nama": "caesar salad",
-        "serving": "100 gr",
+        "serving": "1 porsi",
         "kalori": "170 kal",
         "protein": "5.03 gr",
         "karbohidrat": "6.52 gr",
@@ -121,11 +121,11 @@
     },
     {
         "nama": "cannoli",
-        "serving": "100 gr",
-        "kalori": "254 kal",
-        "protein": "8.7 gr",
-        "karbohidrat": "28.84 gr",
-        "lemak": "11.04 gr"
+        "serving": "1 porsi",
+        "kalori": "216 kal",
+        "protein": "7.4 gr",
+        "karbohidrat": "24.52 gr",
+        "lemak": "9.39 gr"
     },
     {
         "nama": "capcay",
@@ -137,23 +137,23 @@
     },
     {
         "nama": "caprese salad",
-        "serving": "100 gr",
-        "kalori": "146 kal",
-        "protein": "3.1 gr",
-        "karbohidrat": "5 gr",
-        "lemak": "12.8 gr"
+        "serving": "1 porsi",
+        "kalori": "446 kal",
+        "protein": "6.43 gr",
+        "karbohidrat": "1.82 gr",
+        "lemak": "45.1 gr"
     },
     {
         "nama": "carrot cake",
-        "serving": "100 gr",
-        "kalori": "408 kal",
-        "protein": "3.86 gr",
-        "karbohidrat": "52.96 gr",
-        "lemak": "20.88 gr"
+        "serving": "1 porsi",
+        "kalori": "192 kal",
+        "protein": "6.27 gr",
+        "karbohidrat": "22.38 gr",
+        "lemak": "9.61 gr"
     },
     {
         "nama": "ceviche",
-        "serving": "100 gr",
+        "serving": "1 porsi",
         "kalori": "69 kal",
         "protein": "11.5 gr",
         "karbohidrat": "3.85 gr",
@@ -169,43 +169,43 @@
     },
     {
         "nama": "cheese plate",
-        "serving": "100 gr",
-        "kalori": "380 kal",
-        "protein": "26.93 gr",
-        "karbohidrat": "5.38 gr",
-        "lemak": "27.8 gr"
+        "serving": "1 porsi",
+        "kalori": "300 kal",
+        "protein": "14.5 gr",
+        "karbohidrat": "2 gr",
+        "lemak": "31.5 gr"
     },
     {
         "nama": "chicken curry",
-        "serving": "100 gr",
-        "kalori": "124 kal",
-        "protein": "11.47 gr",
-        "karbohidrat": "4.74 gr",
-        "lemak": "6.67 gr"
+        "serving": "1 porsi",
+        "kalori": "626 kal",
+        "protein": "30.33 gr",
+        "karbohidrat": "91.32 gr",
+        "lemak": "17.07 gr"
     },
     {
         "nama": "chicken quesadilla",
-        "serving": "100 gr",
-        "kalori": "306 kal",
-        "protein": "17.15 gr",
-        "karbohidrat": "20.14 gr",
-        "lemak": "17.14 gr"
+        "serving": "1 porsi",
+        "kalori": "538 kal",
+        "protein": "32.8 gr",
+        "karbohidrat": "41.94 gr",
+        "lemak": "26.92 gr"
     },
     {
         "nama": "chicken wings",
-        "serving": "100 gr",
-        "kalori": "288 kal",
-        "protein": "26.64 gr",
-        "karbohidrat": "0 gr",
-        "lemak": "19.3 gr"
+        "serving": "1 porsi",
+        "kalori": "458 kal",
+        "protein": "33.13 gr",
+        "karbohidrat": "1.11 gr",
+        "lemak": "34.98 gr"
     },
     {
         "nama": "chocolate cake",
-        "serving": "100 gr",
-        "kalori": "367 kal",
-        "protein": "4.1 gr",
-        "karbohidrat": "54.6 gr",
-        "lemak": "16.4 gr"
+        "serving": "1 buah",
+        "kalori": "235 kal",
+        "protein": "2.62 gr",
+        "karbohidrat": "34.94 gr",
+        "lemak": "10.5 gr"
     },
     {
         "nama": "chocolate mousse",
@@ -217,35 +217,35 @@
     },
     {
         "nama": "churros",
-        "serving": "100 gr",
-        "kalori": "447 kal",
-        "protein": "2.79 gr",
-        "karbohidrat": "45.94 gr",
-        "lemak": "28.28 gr"
+        "serving": "1 potong",
+        "kalori": "116 kal",
+        "protein": "0.73 gr",
+        "karbohidrat": "11.94 gr",
+        "lemak": "7.35 gr"
     },
     {
         "nama": "clam chowder",
-        "serving": "100 gr",
-        "kalori": "67 kal",
-        "protein": "3.62 gr",
-        "karbohidrat": "7.79 gr",
-        "lemak": "2.39 gr"
+        "serving": "1 cup",
+        "kalori": "170 kal",
+        "protein": "7 gr",
+        "karbohidrat": "11 gr",
+        "lemak": "10 gr"
     },
     {
         "nama": "club sandwich",
-        "serving": "100 gr",
-        "kalori": "243 kal",
-        "protein": "14 gr",
-        "karbohidrat": "20.2 gr",
-        "lemak": "12.3 gr"
+        "serving": "1 porsi",
+        "kalori": "277 kal",
+        "protein": "22.51 gr",
+        "karbohidrat": "18.15 gr",
+        "lemak": "12.49 gr"
     },
     {
         "nama": "crab cakes",
         "serving": "100 gr",
-        "kalori": "168 kal",
-        "protein": "22.23 gr",
-        "karbohidrat": "0.67 gr",
-        "lemak": "7.98 gr"
+        "kalori": "379 kal",
+        "protein": "21.42 gr",
+        "karbohidrat": "58.02 gr",
+        "lemak": "6.44 gr"
     },
     {
         "nama": "creme brulee",
@@ -257,11 +257,11 @@
     },
     {
         "nama": "croque madame",
-        "serving": "100 gr",
-        "kalori": "199 kal",
-        "protein": "10.2 gr",
-        "karbohidrat": "15.7 gr",
-        "lemak": "10.46 gr"
+        "serving": "1 porsi",
+        "kalori": "440 kal",
+        "protein": "34.96 gr",
+        "karbohidrat": "39.88 gr",
+        "lemak": "14.34 gr"
     },
     {
         "nama": "cup cakes",
@@ -273,19 +273,19 @@
     },
     {
         "nama": "deviled eggs",
-        "serving": "100 gr",
-        "kalori": "201 kal",
-        "protein": "11.57 gr",
-        "karbohidrat": "1.35 gr",
-        "lemak": "16.23 gr"
+        "serving": "1 porsi",
+        "kalori": "106 kal",
+        "protein": "6.56 gr",
+        "karbohidrat": "2.53 gr",
+        "lemak": "7.58 gr"
     },
     {
         "nama": "donuts",
-        "serving": "100 gr",
-        "kalori": "412 kal",
-        "protein": "5.7 gr",
-        "karbohidrat": "47 gr",
-        "lemak": "22.85 gr"
+        "serving": "diameter 4 cm",
+        "kalori": "59 kal",
+        "protein": "0.7 gr",
+        "karbohidrat": "6.96 gr",
+        "lemak": "3.21 gr"
     },
     {
         "nama": "dumplings",
@@ -298,18 +298,18 @@
     {
         "nama": "edamame",
         "serving": "100 gr",
-        "kalori": "120 kal",
-        "protein": "11 gr",
-        "karbohidrat": "13 gr",
-        "lemak": "2.5 gr"
+        "kalori": "100 kal",
+        "protein": "10 gr",
+        "karbohidrat": "8 gr",
+        "lemak": "4 gr"
     },
     {
         "nama": "eggs benedict",
-        "serving": "100 gr",
-        "kalori": "276 kal",
-        "protein": "11.96 gr",
-        "karbohidrat": "8.32 gr",
-        "lemak": "21.6 gr"
+        "serving": "1 porsi",
+        "kalori": "798 kal",
+        "protein": "47.13 gr",
+        "karbohidrat": "58.87 gr",
+        "lemak": "40.03 gr"
     },
     {
         "nama": "escargots",
@@ -321,27 +321,27 @@
     },
     {
         "nama": "falafel",
-        "serving": "100 gr",
-        "kalori": "333 kal",
-        "protein": "13.31 gr",
-        "karbohidrat": "31.84 gr",
-        "lemak": "17.8 gr"
+        "serving": "diameter 5.5 cm",
+        "kalori": "57 kal",
+        "protein": "2.26 gr",
+        "karbohidrat": "5.41 gr",
+        "lemak": "3.03 gr"
     },
     {
         "nama": "filet mignon",
-        "serving": "100 gr",
-        "kalori": "170 kal",
-        "protein": "21.97 gr",
+        "serving": "1 porsi",
+        "kalori": "290 kal",
+        "protein": "44 gr",
         "karbohidrat": "0 gr",
-        "lemak": "8.41 gr"
+        "lemak": "12 gr"
     },
     {
         "nama": "fish and chips",
-        "serving": "100 gr",
-        "kalori": "255 kal",
-        "protein": "10.03 gr",
-        "karbohidrat": "21.71 gr",
-        "lemak": "14.05 gr"
+        "serving": "1 porsi",
+        "kalori": "774 kal",
+        "protein": "35.95 gr",
+        "karbohidrat": "45.14 gr",
+        "lemak": "49.9 gr"
     },
     {
         "nama": "foie gras",
@@ -361,99 +361,99 @@
     },
     {
         "nama": "french onion soup",
-        "serving": "100 gr",
-        "kalori": "153 kal",
-        "protein": "6.6 gr",
-        "karbohidrat": "16.32 gr",
-        "lemak": "6.86 gr"
+        "serving": "1 porsi",
+        "kalori": "302 kal",
+        "protein": "11.89 gr",
+        "karbohidrat": "37.35 gr",
+        "lemak": "12.7 gr"
     },
     {
         "nama": "french toast",
-        "serving": "100 gr",
-        "kalori": "244 kal",
-        "protein": "8.59 gr",
-        "karbohidrat": "30.8 gr",
-        "lemak": "9.43 gr"
+        "serving": "1 porsi",
+        "kalori": "115 kal",
+        "protein": "5.88 gr",
+        "karbohidrat": "14.33 gr",
+        "lemak": "3.71 gr"
     },
     {
         "nama": "fried calamari",
-        "serving": "100 gr",
-        "kalori": "125 kal",
-        "protein": "15.13 gr",
-        "karbohidrat": "9.9 gr",
-        "lemak": "2.71 gr"
+        "serving": "1 buah",
+        "kalori": "12 kal",
+        "protein": "1.47 gr",
+        "karbohidrat": "0.96 gr",
+        "lemak": "0.21 gr"
     },
     {
         "nama": "fried rice",
-        "serving": "100 gr",
-        "kalori": "151 kal",
-        "protein": "5.67 gr",
-        "karbohidrat": "18.95 gr",
-        "lemak": "5.61 gr"
+        "serving": "1 porsi",
+        "kalori": "678 kal",
+        "protein": "17.96 gr",
+        "karbohidrat": "112.8 gr",
+        "lemak": "18.13 gr"
     },
     {
         "nama": "frozen yogurt",
-        "serving": "100 gr",
-        "kalori": "107 kal",
-        "protein": "4.7 gr",
-        "karbohidrat": "19.62 gr",
-        "lemak": "1.47 gr"
+        "serving": "1 porsi",
+        "kalori": "150 kal",
+        "protein": "7.5 gr",
+        "karbohidrat": "30 gr",
+        "lemak": "0 gr"
     },
     {
         "nama": "fu yung hai",
-        "serving": "100 gr",
-        "kalori": "383 kal",
-        "protein": "18.6 gr",
-        "karbohidrat": "18 gr",
-        "lemak": "26.6 gr"
+        "serving": "1 potong",
+        "kalori": "113 kal",
+        "protein": "6.49 gr",
+        "karbohidrat": "3.1 gr",
+        "lemak": "8.35 gr"
     },
     {
         "nama": "garlic bread",
-        "serving": "100 gr",
-        "kalori": "330 kal",
-        "protein": "7.75 gr",
-        "karbohidrat": "45.62 gr",
-        "lemak": "12.78 gr"
+        "serving": "1 porsi",
+        "kalori": "294 kal",
+        "protein": "12.38 gr",
+        "karbohidrat": "30.51 gr",
+        "lemak": "13.44 gr"
     },
     {
         "nama": "gnocchi",
-        "serving": "100 gr",
-        "kalori": "133 kal",
-        "protein": "2.36 gr",
-        "karbohidrat": "17.04 gr",
-        "lemak": "6.24 gr"
+        "serving": "1 porsi",
+        "kalori": "2025 kal",
+        "protein": "60.89 gr",
+        "karbohidrat": "148.9 gr",
+        "lemak": "131.38 gr"
     },
     {
         "nama": "greek salad",
-        "serving": "100 gr",
-        "kalori": "101 kal",
-        "protein": "6.66 gr",
-        "karbohidrat": "3.22 gr",
-        "lemak": "6.93 gr"
+        "serving": "1 porsi",
+        "kalori": "175 kal",
+        "protein": "4.03 gr",
+        "karbohidrat": "3.16 gr",
+        "lemak": "17.03 gr"
     },
     {
         "nama": "grilled cheese sandwich",
-        "serving": "100 gr",
-        "kalori": "360 kal",
-        "protein": "11.04 gr",
-        "karbohidrat": "33.56 gr",
-        "lemak": "19 gr"
+        "serving": "1 porsi",
+        "kalori": "303 kal",
+        "protein": "7.82 gr",
+        "karbohidrat": "27.3 gr",
+        "lemak": "17.64 gr"
     },
     {
         "nama": "grilled salmon",
-        "serving": "100 gr",
-        "kalori": "171 kal",
-        "protein": "23.97 gr",
-        "karbohidrat": "0.49 gr",
-        "lemak": "7.56 gr"
+        "serving": "1 porsi",
+        "kalori": "326 kal",
+        "protein": "36.47 gr",
+        "karbohidrat": "9.67 gr",
+        "lemak": "15.59 gr"
     },
     {
         "nama": "guacamole",
-        "serving": "100 gr",
-        "kalori": "157 kal",
-        "protein": "1.96 gr",
-        "karbohidrat": "8.51 gr",
-        "lemak": "14.31 gr"
+        "serving": "1 sdm",
+        "kalori": "23 kal",
+        "protein": "0.29 gr",
+        "karbohidrat": "1.24 gr",
+        "lemak": "2.08 gr"
     },
     {
         "nama": "gudeg",
@@ -473,67 +473,67 @@
     },
     {
         "nama": "hamburger",
-        "serving": "100 gr",
-        "kalori": "290 kal",
-        "protein": "15.71 gr",
-        "karbohidrat": "28.83 gr",
-        "lemak": "11.8 gr"
+        "serving": "1 porsi besar",
+        "kalori": "426 kal",
+        "protein": "22.62 gr",
+        "karbohidrat": "31.73 gr",
+        "lemak": "22.92 gr"
     },
     {
         "nama": "hot and sour soup",
-        "serving": "100 gr",
-        "kalori": "67 kal",
-        "protein": "6.19 gr",
-        "karbohidrat": "2.03 gr",
-        "lemak": "3.24 gr"
+        "serving": "1 porsi",
+        "kalori": "348 kal",
+        "protein": "21.57 gr",
+        "karbohidrat": "21.8 gr",
+        "lemak": "17.87 gr"
     },
     {
         "nama": "hot dog",
-        "serving": "100 gr",
-        "kalori": "247 kal",
-        "protein": "10.6 gr",
-        "karbohidrat": "18.4 gr",
-        "lemak": "14.84 gr"
+        "serving": "1 sandwich",
+        "kalori": "242 kal",
+        "protein": "10.39 gr",
+        "karbohidrat": "18.03 gr",
+        "lemak": "14.54 gr"
     },
     {
         "nama": "huevos rancheros",
-        "serving": "100 gr",
-        "kalori": "119 kal",
-        "protein": "6.89 gr",
-        "karbohidrat": "8.53 gr",
-        "lemak": "6.66 gr"
+        "serving": "1 porsi",
+        "kalori": "140 kal",
+        "protein": "8.13 gr",
+        "karbohidrat": "10.07 gr",
+        "lemak": "7.86 gr"
     },
     {
         "nama": "hummus",
-        "serving": "100 gr",
-        "kalori": "177 kal",
-        "protein": "4.86 gr",
-        "karbohidrat": "20.12 gr",
-        "lemak": "8.59 gr"
+        "serving": "1 sdm",
+        "kalori": "27 kal",
+        "protein": "0.73 gr",
+        "karbohidrat": "3.02 gr",
+        "lemak": "1.29 gr"
     },
     {
         "nama": "ice cream",
-        "serving": "100 gr",
-        "kalori": "201 kal",
-        "protein": "3.52 gr",
-        "karbohidrat": "24.4 gr",
-        "lemak": "10.72 gr"
+        "serving": "1 mangkok",
+        "kalori": "267 kal",
+        "protein": "4.68 gr",
+        "karbohidrat": "32.45 gr",
+        "lemak": "14.26 gr"
     },
     {
         "nama": "kebab",
-        "serving": "100 gr",
-        "kalori": "147 kal",
-        "protein": "9.79 gr",
-        "karbohidrat": "20.29 gr",
-        "lemak": "2.69 gr"
+        "serving": "1 porsi",
+        "kalori": "620 kal",
+        "protein": "37.87 gr",
+        "karbohidrat": "77.1 gr",
+        "lemak": "16.63 gr"
     },
     {
         "nama": "lasagna",
-        "serving": "100 gr",
-        "kalori": "163 kal",
-        "protein": "9.96 gr",
-        "karbohidrat": "17.2 gr",
-        "lemak": "6.01 gr"
+        "serving": "1 mangkok",
+        "kalori": "408 kal",
+        "protein": "24.9 gr",
+        "karbohidrat": "43 gr",
+        "lemak": "15.02 gr"
     },
     {
         "nama": "lobster bisque",
@@ -545,19 +545,19 @@
     },
     {
         "nama": "lobster roll sandwich",
-        "serving": "100 gr",
-        "kalori": "281.7 kal",
-        "protein": "11.97 gr",
-        "karbohidrat": "26.7 gr",
-        "lemak": "14 gr"
+        "serving": "1 porsi",
+        "kalori": "251 kal",
+        "protein": "20.76 gr",
+        "karbohidrat": "27.72 gr",
+        "lemak": "6.53 gr"
     },
     {
         "nama": "macaroni and cheese",
-        "serving": "100 gr",
-        "kalori": "221 kal",
-        "protein": "8.6 gr",
-        "karbohidrat": "23.2 gr",
-        "lemak": "10.3 gr"
+        "serving": "1 porsi",
+        "kalori": "290 kal",
+        "protein": "26.94 gr",
+        "karbohidrat": "31.43 gr",
+        "lemak": "6.49 gr"
     },
     {
         "nama": "macarons",
@@ -569,11 +569,11 @@
     },
     {
         "nama": "miso soup",
-        "serving": "100 gr",
-        "kalori": "35 kal",
-        "protein": "2.51 gr",
-        "karbohidrat": "3.24 gr",
-        "lemak": "1.4 gr"
+        "serving": "1 mangkok",
+        "kalori": "84 kal",
+        "protein": "6.02 gr",
+        "karbohidrat": "7.78 gr",
+        "lemak": "3.36 gr"
     },
     {
         "nama": "mussels",
@@ -593,19 +593,19 @@
     },
     {
         "nama": "omelette",
-        "serving": "100 gr",
-        "kalori": "153 kal",
-        "protein": "10.62 gr",
-        "karbohidrat": "0.69 gr",
-        "lemak": "12.02 gr"
+        "serving": "1 porsi",
+        "kalori": "121 kal",
+        "protein": "22.79 gr",
+        "karbohidrat": "4.72 gr",
+        "lemak": "0.17 gr"
     },
     {
         "nama": "onion rings",
-        "serving": "100 gr",
-        "kalori": "500 kal",
-        "protein": "7.7 gr",
-        "karbohidrat": "65.1 gr",
-        "lemak": "22.6 gr"
+        "serving": "1 porsi (8-9 buah)",
+        "kalori": "276 kal",
+        "protein": "3.7 gr",
+        "karbohidrat": "31.32 gr",
+        "lemak": "15.51 gr"
     },
     {
         "nama": "oysters",
@@ -617,43 +617,43 @@
     },
     {
         "nama": "pad thai",
-        "serving": "100 gr",
-        "kalori": "170 kal",
-        "protein": "5.79 gr",
-        "karbohidrat": "22.49 gr",
-        "lemak": "6.38 gr"
+        "serving": "1 mangkok",
+        "kalori": "357 kal",
+        "protein": "12.16 gr",
+        "karbohidrat": "47.23 gr",
+        "lemak": "13.39 gr"
     },
     {
         "nama": "paella",
-        "serving": "100 gr",
-        "kalori": "158 kal",
-        "protein": "9.52 gr",
-        "karbohidrat": "16.68 gr",
-        "lemak": "5.44 gr"
+        "serving": "1 mangkok",
+        "kalori": "379 kal",
+        "protein": "22.85 gr",
+        "karbohidrat": "40.03 gr",
+        "lemak": "13.06 gr"
     },
     {
         "nama": "pancakes",
-        "serving": "100 gr",
-        "kalori": "191 kal",
-        "protein": "30.35 gr",
-        "karbohidrat": "12.74 gr",
-        "lemak": "3.29 gr"
+        "serving": "1 porsi",
+        "kalori": "174 kal",
+        "protein": "7.86 gr",
+        "karbohidrat": "23.64 gr",
+        "lemak": "5.68 gr"
     },
     {
         "nama": "panna cotta",
-        "serving": "100 gr",
-        "kalori": "219.2 kal",
-        "protein": "2.5 gr",
-        "karbohidrat": "23.3 gr",
-        "lemak": "10 gr"
+        "serving": "1 porsi",
+        "kalori": "530 kal",
+        "protein": "3.18 gr",
+        "karbohidrat": "44.33 gr",
+        "lemak": "37.55 gr"
     },
     {
         "nama": "peking duck",
-        "serving": "100 gr",
-        "kalori": "265 kal",
-        "protein": "18.66 gr",
-        "karbohidrat": "0 gr",
-        "lemak": "20.61 gr"
+        "serving": "1 porsi",
+        "kalori": "792 kal",
+        "protein": "20.67 gr",
+        "karbohidrat": "35.75 gr",
+        "lemak": "62.70 gr"
     },
     {
         "nama": "pho",
@@ -673,19 +673,19 @@
     },
     {
         "nama": "pork chop",
-        "serving": "100 gr",
-        "kalori": "250 kal",
-        "protein": "27.91 gr",
-        "karbohidrat": "0 gr",
-        "lemak": "14.57 gr"
+        "serving": "1 porsi",
+        "kalori": "295 kal",
+        "protein": "31.8 gr",
+        "karbohidrat": "7.03 gr",
+        "lemak": "15.28 gr"
     },
     {
         "nama": "poutine",
-        "serving": "100 gr",
-        "kalori": "233 kal",
-        "protein": "6.02 gr",
-        "karbohidrat": "24.84 gr",
-        "lemak": "12.16 gr"
+        "serving": "1 porsi",
+        "kalori": "988 kal",
+        "protein": "32.1 gr",
+        "karbohidrat": "76.21 gr",
+        "lemak": "63.3 gr"
     },
     {
         "nama": "prime rib",
@@ -714,50 +714,50 @@
     {
         "nama": "ravioli",
         "serving": "100 gr",
-        "kalori": "188 kal",
-        "protein": "10.79 gr",
-        "karbohidrat": "19.04 gr",
-        "lemak": "7.18 gr"
+        "kalori": "29 kal",
+        "protein": "1.89 gr",
+        "karbohidrat": "2.6 gr",
+        "lemak": "1.11 gr"
     },
     {
         "nama": "red velvet cake",
-        "serving": "100 gr",
-        "kalori": "367 kal",
-        "protein": "6.81 gr",
-        "karbohidrat": "46.81 gr",
-        "lemak": "17.18 gr"
+        "serving": "1 porsi",
+        "kalori": "293 kal",
+        "protein": "5.45 gr",
+        "karbohidrat": "37.45 gr",
+        "lemak": "13.74 gr"
     },
     {
         "nama": "risotto",
-        "serving": "100 gr",
-        "kalori": "166 kal",
-        "protein": "5.2 gr",
-        "karbohidrat": "20 gr",
-        "lemak": "7 gr"
+        "serving": "1 mangkok",
+        "kalori": "356 kal",
+        "protein": "14.02 gr",
+        "karbohidrat": "44.25 gr",
+        "lemak": "13.12 gr"
     },
     {
         "nama": "samosa",
-        "serving": "100 gr",
-        "kalori": "308 kal",
-        "protein": "4.67 gr",
-        "karbohidrat": "32.21 gr",
-        "lemak": "17.86 gr"
+        "serving": "1 buah",
+        "kalori": "212 kal",
+        "protein": "4.64 gr",
+        "karbohidrat": "20.79 gr",
+        "lemak": "12.21 gr"
     },
     {
         "nama": "sashimi",
-        "serving": "100 gr",
-        "kalori": "146 kal",
-        "protein": "21.62 gr",
+        "serving": "1 buah",
+        "kalori": "41 kal",
+        "protein": "6.13 gr",
         "karbohidrat": "0 gr",
-        "lemak": "5.93 gr"
+        "lemak": "1.68 gr"
     },
     {
         "nama": "scallops",
-        "serving": "100 gr",
-        "kalori": "88 kal",
-        "protein": "16.78 gr",
-        "karbohidrat": "2.36 gr",
-        "lemak": "0.76 gr"
+        "serving": "1 buah",
+        "kalori": "11.5 kal",
+        "protein": "2.5 gr",
+        "karbohidrat": "0.5 gr",
+        "lemak": "0.6 gr"
     },
     {
         "nama": "seaweed salad",
@@ -769,35 +769,35 @@
     },
     {
         "nama": "shrimp and grits",
-        "serving": "100 gr",
-        "kalori": "350 kal",
-        "protein": "7.5 gr",
-        "karbohidrat": "72.5 gr",
-        "lemak": "3.8 gr"
+        "serving": "1 porsi",
+        "kalori": "494 kal",
+        "protein": "27.75 gr",
+        "karbohidrat": "78.6 gr",
+        "lemak": "8.13 gr"
     },
     {
         "nama": "spaghetti bolognese",
-        "serving": "100 gr",
-        "kalori": "113 kal",
-        "protein": "6.54 gr",
-        "karbohidrat": "8.41 gr",
-        "lemak": "6.46 gr"
+        "serving": "1 porsi",
+        "kalori": "377 kal",
+        "protein": "17.48 gr",
+        "karbohidrat": "53.55 gr",
+        "lemak": "10.78 gr"
     },
     {
         "nama": "spaghetti carbonara",
-        "serving": "100 gr",
-        "kalori": "371 kal",
-        "protein": "13 gr",
-        "karbohidrat": "74.7 gr",
-        "lemak": "1.5 gr"
+        "serving": "1 porsi",
+        "kalori": "422 kal",
+        "protein": "22.7 gr",
+        "karbohidrat": "28.63 gr",
+        "lemak": "23.53 gr"
     },
     {
         "nama": "spring rolls",
-        "serving": "100 gr",
-        "kalori": "340 kal",
-        "protein": "2.1 gr",
-        "karbohidrat": "83 gr",
-        "lemak": "0.2 gr"
+        "serving": "1 porsi",
+        "kalori": "332 kal",
+        "protein": "10.17 gr",
+        "karbohidrat": "43.24 gr",
+        "lemak": "12.7 gr"
     },
     {
         "nama": "steak",
@@ -817,11 +817,11 @@
     },
     {
         "nama": "sushi",
-        "serving": "100 gr",
-        "kalori": "143 kal",
-        "protein": "4.3 gr",
-        "karbohidrat": "29.9 gr",
-        "lemak": "0.42 gr"
+        "serving": "1 buah",
+        "kalori": "37 kal",
+        "protein": "1.12 gr",
+        "karbohidrat": "7.77 gr",
+        "lemak": "0.11 gr"
     },
     {
         "nama": "tacos",
@@ -833,11 +833,11 @@
     },
     {
         "nama": "takoyaki",
-        "serving": "100 gr",
-        "kalori": "111 kal",
-        "protein": "1 gr",
-        "karbohidrat": "19 gr",
-        "lemak": "6 gr"
+        "serving": "1 buah",
+        "kalori": "70 kal",
+        "protein": "3.38 gr",
+        "karbohidrat": "7.11 gr",
+        "lemak": "3.02 gr"
     },
     {
         "nama": "tiramisu",
@@ -857,10 +857,10 @@
     },
     {
         "nama": "waffles",
-        "serving": "100 gr",
-        "kalori": "310 kal",
-        "protein": "9.55 gr",
-        "karbohidrat": "48.84 gr",
-        "lemak": "7.3 gr"
+        "serving": "1 porsi",
+        "kalori": "581 kal",
+        "protein": "7.19 gr",
+        "karbohidrat": "117.97 gr",
+        "lemak": "11.17 gr"
     }
 ]
