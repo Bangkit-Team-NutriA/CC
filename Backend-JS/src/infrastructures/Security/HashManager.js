@@ -1,4 +1,4 @@
-const HashPassword = require('../../applications/security/HashPassword');
+const HashPassword = require('../../applications/Security/HashPassword');
 
 class HashManager extends HashPassword {
   constructor(bcrypt, saltRound = 10) {
