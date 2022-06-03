@@ -11,12 +11,10 @@ class UserHandler {
   }
   async postUserHandler(req, h) {
     const payload = req.payload;
-    console.log(payload);
     payload['sex'] = (payload['sex']==='true');
     payload['weight'] = parseInt(payload['weight']);
     payload['height'] = parseInt(payload['height']);
     payload['timesOfExercise'] = parseInt(payload['timesOfExercise']);
-    console.log(payload);
     const addUserUseCase = this._container.getInstance(AddUserUseCase.name);
     const data = await addUserUseCase.execute(payload);
     const response = h.response({
