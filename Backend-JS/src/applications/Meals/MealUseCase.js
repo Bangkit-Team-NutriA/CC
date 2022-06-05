@@ -21,7 +21,6 @@ class MealUseCase {
         timesOfExercise,
         age
       }
-      tempPayload['sex'] = (tempPayload['sex'] === 'true')
       tempPayload['age'] = new Date().getFullYear() - new Date(tempPayload['age']).getFullYear();
       payload = tempPayload;
     }
